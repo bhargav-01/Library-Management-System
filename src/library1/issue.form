@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="library1.issue">
+  <scrollpane id="d880" binding="s">
+    <constraints>
+      <xy x="20" y="20" width="1600" height="568"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <foreground color="-6980865"/>
+      <minimumSize width="900" height="15"/>
+      <preferredSize width="900" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="p" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="20" right="10"/>
+        <constraints/>
+        <properties>
+          <background color="-12828863"/>
+          <minimumSize width="15000" height="5"/>
+          <preferredSize width="1500" height="549"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="c9255" binding="p1" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12828863"/>
+            </properties>
+            <border type="bevel-raised" title="Book" title-justification="4" title-position="2">
+              <font name="Copperplate Gothic Bold" size="28" style="0"/>
+              <title-color color="-486612"/>
+            </border>
+            <children>
+              <component id="6e5af" class="javax.swing.JLabel" binding="bookNameLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-22255"/>
+                  <text value="Book Name   "/>
+                </properties>
+              </component>
+              <component id="94eec" class="javax.swing.JTextField" binding="tn">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Calibri" size="24" style="0"/>
+                  <foreground color="-16777216"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="1fc8c" class="javax.swing.JTextField" binding="te">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Calibri" size="24" style="0"/>
+                  <foreground color="-16777216"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="a8f7e" class="javax.swing.JTextField" binding="tpg">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <focusable value="true"/>
+                  <font name="Calibri" size="24" style="0"/>
+                  <foreground color="-16777216"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                </properties>
+              </component>
+              <component id="1896a" class="javax.swing.JLabel" binding="pagesLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-22255"/>
+                  <text value="Pages"/>
+                </properties>
+              </component>
+              <component id="300a2" class="javax.swing.JTextField" binding="tp">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Calibri" size="24" style="0"/>
+                  <foreground color="-16777216"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="cccc0" class="javax.swing.JLabel" binding="publisherLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-22255"/>
+                  <text value="Publisher"/>
+                </properties>
+              </component>
+              <component id="69ece" class="javax.swing.JTextField" binding="tpc">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Calibri" size="24" style="0"/>
+                  <foreground color="-16777216"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                </properties>
+              </component>
+              <component id="e9554" class="javax.swing.JLabel" binding="priceLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-22255"/>
+                  <text value="Price"/>
+                </properties>
+              </component>
+              <component id="d6e4e" class="javax.swing.JTextField" binding="ti">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Calibri" size="24" style="0"/>
+                  <foreground color="-16777216"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                </properties>
+              </component>
+              <component id="4be77" class="javax.swing.JLabel" binding="editionLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-22255"/>
+                  <text value="Edition"/>
+                </properties>
+              </component>
+              <component id="3db45" class="javax.swing.JLabel" binding="bookIdLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-22255"/>
+                  <text value="Book Id"/>
+                </properties>
+              </component>
+              <component id="ba699" class="javax.swing.JButton" binding="bs">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13829896"/>
+                  <font name="SansSerif" size="24" style="1"/>
+                  <foreground color="-16777216"/>
+                  <icon value="library1/icon/booksearch.png"/>
+                  <iconTextGap value="10"/>
+                  <inheritsPopupMenu value="false"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <text value="Search"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d451f" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12828863"/>
+              <foreground color="-12828863"/>
+            </properties>
+            <border type="bevel-raised" title="Student" title-justification="4" title-position="2">
+              <font name="Copperplate Gothic Bold" size="28" style="0"/>
+              <title-color color="-486612"/>
+            </border>
+            <children>
+              <component id="a41d2" class="javax.swing.JLabel" binding="studentIDLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-486612"/>
+                  <text value="Student ID"/>
+                </properties>
+              </component>
+              <component id="6833d" class="javax.swing.JTextField" binding="sti">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5"/>
+                  <caretColor color="-16777216"/>
+                  <font name="Calibri" size="24" style="0"/>
+                </properties>
+              </component>
+              <component id="f5a46" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-486612"/>
+                  <text value="Student Name     "/>
+                </properties>
+              </component>
+              <component id="41a23" class="javax.swing.JTextField" binding="stn">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5"/>
+                  <caretColor color="-16777216"/>
+                  <font name="JetBrains Mono" size="24" style="0"/>
+                </properties>
+              </component>
+              <component id="93ad" class="javax.swing.JLabel" binding="fatherNameLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-486612"/>
+                  <text value="Father Name"/>
+                </properties>
+              </component>
+              <component id="2470f" class="javax.swing.JTextField" binding="stfn">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5"/>
+                  <caretColor color="-16777216"/>
+                  <font name="JetBrains Mono" size="24" style="0"/>
+                </properties>
+              </component>
+              <component id="9401" class="javax.swing.JTextField" binding="stc">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <caretColor color="-16777216"/>
+                  <font name="JetBrains Mono" size="24" style="0"/>
+                </properties>
+              </component>
+              <component id="71817" class="javax.swing.JLabel" binding="courseLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-486612"/>
+                  <text value="Course"/>
+                </properties>
+              </component>
+              <component id="726c6" class="javax.swing.JLabel" binding="branchLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-486612"/>
+                  <text value="Branch"/>
+                </properties>
+              </component>
+              <component id="17764" class="javax.swing.JTextField" binding="stb">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5"/>
+                  <caretColor color="-16777216"/>
+                  <font name="JetBrains Mono" size="24" style="0"/>
+                </properties>
+              </component>
+              <component id="847b6" class="javax.swing.JTextField" binding="sty">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5"/>
+                  <caretColor color="-16777216"/>
+                  <font name="JetBrains Mono" size="24" style="0"/>
+                </properties>
+              </component>
+              <component id="6215d" class="javax.swing.JLabel" binding="yearLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <font name="Calibri" size="28" style="0"/>
+                  <foreground color="-486612"/>
+                  <text value="Year"/>
+                </properties>
+              </component>
+              <component id="eb11d" class="javax.swing.JButton" binding="sbs">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13829896"/>
+                  <font name="Arial" size="22" style="1"/>
+                  <foreground color="-16777216"/>
+                  <icon value="library1/icon/loupe (1).png"/>
+                  <text value="Search"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2ab35" binding="p3" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12828863"/>
+              <font name="JetBrains Mono" size="20" style="3"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4e9bf" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="24" style="0"/>
+                  <foreground color="-486612"/>
+                  <text value="Date Of Issue      "/>
+                </properties>
+              </component>
+              <component id="d9170" class="com.toedter.calendar.JDateChooser" binding="date" custom-create="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </component>
+            </children>
+          </grid>
+          <grid id="ef6d9" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="-1">
+            <margin top="5" left="10" bottom="50" right="10"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12828863"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="decfa" class="javax.swing.JButton" binding="bi">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13829896"/>
+                  <font name="Arial" size="24" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Issue"/>
+                </properties>
+              </component>
+              <component id="cff6" class="javax.swing.JButton" binding="backButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13829896"/>
+                  <font name="Arial" size="24" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Back"/>
+                </properties>
+              </component>
+              <grid id="97a28" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="860b7" binding="s1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12828863"/>
+                      <font name="Calibri" size="22" style="1"/>
+                      <foreground color="-16777216"/>
+                    </properties>
+                    <border type="none" title="Issue Book Table" title-justification="4" title-position="2">
+                      <font name="Copperplate Gothic Bold" size="24" style="1"/>
+                      <title-color color="-486612"/>
+                    </border>
+                    <children>
+                      <component id="5ec85" class="javax.swing.JTable" binding="it">
+                        <constraints/>
+                        <properties>
+                          <autoCreateRowSorter value="false"/>
+                          <background color="-12828863"/>
+                          <font name="Calibri" size="24" style="0"/>
+                          <foreground color="-5"/>
+                          <gridColor color="-5"/>
+                          <intercellSpacing width="10" height="1"/>
+                          <rowHeight value="30"/>
+                          <selectionBackground color="-54465"/>
+                          <selectionForeground color="-1"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </scrollpane>
+</form>

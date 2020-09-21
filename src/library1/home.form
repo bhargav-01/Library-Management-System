@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="library1.home">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="0">
+    <margin top="0" left="0" bottom="30" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1234" height="806"/>
+    </constraints>
+    <properties>
+      <background color="-15000795"/>
+      <preferredSize width="1600" height="750"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ca607" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="150" vgap="0">
+        <margin top="20" left="150" bottom="10" right="150"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="etched" title="Operation" title-justification="4" title-position="2">
+          <font name="Copperplate Gothic Bold" size="36" style="0"/>
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="f7de" class="javax.swing.JButton" binding="bs">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <icon value="library1/icon/analysis.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bd567" class="javax.swing.JButton" binding="bns">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <icon value="library1/icon/s2.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4a630" class="javax.swing.JLabel" binding="newbook">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="24" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="New Book"/>
+            </properties>
+          </component>
+          <component id="e2b89" class="javax.swing.JLabel" binding="statistics">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="24" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Statistics"/>
+            </properties>
+          </component>
+          <component id="2f1e4" class="javax.swing.JLabel" binding="newstudent">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="24" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="New Student"/>
+            </properties>
+          </component>
+          <component id="7dfb5" class="javax.swing.JButton" binding="bn">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <icon value="library1/icon/b1.png"/>
+              <margin top="5" left="0" bottom="0" right="0"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="362c9" binding="p1" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="155" vgap="0">
+        <margin top="20" left="150" bottom="10" right="145"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10684175"/>
+        </properties>
+        <border type="etched" title="Action" title-justification="4" title-position="2">
+          <font name="Copperplate Gothic Bold" size="36" style="1"/>
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="161a8" class="javax.swing.JButton" binding="bi">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11601679"/>
+              <foreground color="-6948698"/>
+              <icon value="library1/icon/b4.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="90845" class="javax.swing.JButton" binding="br">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11601679"/>
+              <foreground color="-6948698"/>
+              <icon value="library1/icon/r2.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ec957" class="javax.swing.JButton" binding="ba">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11601679"/>
+              <foreground color="-6948698"/>
+              <icon value="library1/icon/teamwork (1).png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5bdd" class="javax.swing.JLabel" binding="issueBookLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="24" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Issue Book"/>
+            </properties>
+          </component>
+          <component id="bf4f" class="javax.swing.JLabel" binding="returnBookLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="24" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Return Book"/>
+            </properties>
+          </component>
+          <component id="dfa78" class="javax.swing.JLabel" binding="aboutLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="24" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="About"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1299b" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="dd3c3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Copperplate Gothic Bold" size="36" style="1"/>
+              <foreground color="-1"/>
+              <text value="Library"/>
+            </properties>
+          </component>
+          <component id="e3cde" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Copperplate Gothic Bold" size="36" style="1"/>
+              <foreground color="-1"/>
+              <text value="In"/>
+            </properties>
+          </component>
+          <component id="f27b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Copperplate Gothic Bold" size="36" style="1"/>
+              <foreground color="-1"/>
+              <text value="Welcome"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="9af46" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="249bf" class="javax.swing.JMenuBar" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-12828863"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="a6781" class="javax.swing.JMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-12828863"/>
+                  <font name="Cambria" size="18" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="2"/>
+                  <text value="File"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="d28f1" class="javax.swing.JMenu" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties>
+                      <text value="Open"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="cdd75" class="javax.swing.JMenu" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-12828863"/>
+                  <font name="Cambria" size="18" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Edit"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

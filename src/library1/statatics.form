@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="library1.statatics">
+  <grid id="27dc6" binding="p" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <focusCycleRoot value="true"/>
+      <preferredSize width="1580" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="84f8c" binding="p1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10684175"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="a9b07">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10684175"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none" title="Issue Book" title-justification="4" title-position="2">
+              <font name="Copperplate Gothic Bold" size="28" style="1"/>
+              <title-color color="-16777216"/>
+            </border>
+            <children>
+              <component id="78d01" class="javax.swing.JTable" binding="it">
+                <constraints/>
+                <properties>
+                  <autoCreateRowSorter value="true"/>
+                  <autoResizeMode value="3"/>
+                  <background color="-1"/>
+                  <font name="Arial" size="20" style="0"/>
+                  <foreground color="-16777216"/>
+                  <gridColor color="-16777216"/>
+                  <intercellSpacing width="0" height="0"/>
+                  <name value="Issue Book"/>
+                  <rowHeight value="30"/>
+                  <selectionBackground color="-51360"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="abab1" binding="p5" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d4663" binding="p6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10684175"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="97823" binding="p7" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="dee7a" class="javax.swing.JButton" binding="backButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-51360"/>
+                  <font name="Cambria" size="28" style="0"/>
+                  <foreground color="-16777216"/>
+                  <text value="Back"/>
+                </properties>
+              </component>
+              <hspacer id="6e2c0">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <grid id="8b504" binding="p8" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="85568" binding="p9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10684175"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="56014" binding="p10" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="83958" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1"/>
+                      <text value="lvd"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="148ef" binding="p2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="50649">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="etched" title="Return Book" title-justification="4" title-position="2">
+              <font name="Copperplate Gothic Bold" size="28" style="1"/>
+              <title-color color="-16777216"/>
+            </border>
+            <children>
+              <component id="fafb2" class="javax.swing.JTable" binding="rt">
+                <constraints/>
+                <properties>
+                  <autoCreateRowSorter value="true"/>
+                  <autoResizeMode value="2"/>
+                  <background color="-1"/>
+                  <editingColumn value="2"/>
+                  <font name="Arial" size="20" style="0"/>
+                  <foreground color="-16777216"/>
+                  <gridColor color="-16777216"/>
+                  <intercellSpacing width="0" height="0"/>
+                  <name value="Issue Book"/>
+                  <opaque value="true"/>
+                  <rowHeight value="30"/>
+                  <selectionBackground color="-51360"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
