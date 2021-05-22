@@ -8,6 +8,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Vector;
 
@@ -164,7 +165,9 @@ public class issue1{
                     st.setString(10, s3);
                     st.setString(11, s4);
                     st.setString(12, s5);
-                    st.setString(13, ((JTextField) date.getDateEditor().getUiComponent()).getText());
+                    SimpleDateFormat smp=new SimpleDateFormat("dd-MM-yyyy");
+                    st.setString(13, smp.format(date.getDate()));
+//                    st.setString(13, ((JTextField) date.getDateEditor().getUiComponent()).getText());
 
 
                     st.execute();
@@ -263,7 +266,8 @@ public class issue1{
     private void createUIComponents() {
         // TODO: place custom component creation code here
         Calendar c = Calendar.getInstance();
-        date = new JDateChooser(c.getTime());
+          date = new JDateChooser();
+       // date.setDate(c.getTime());
         date.setDateFormatString("dd/MM/yyyy");
         Font f = new Font("Calibri", 0, 18);
         date.setFont(f);

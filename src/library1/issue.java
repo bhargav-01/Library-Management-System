@@ -8,6 +8,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Vector;
 
@@ -46,6 +47,7 @@ public class issue {private JPanel p;
     private JTable it;
     private JScrollPane s;
     private JScrollPane s1;
+    private JScrollBar scrollBar1;
     public static  JFrame frame;
     public issue() {
         String[] a = {"Book Id", "Book Name", "Edition", "Publisher", "Price", "Pages", "Student Id", "Student Name", "Father Name", "Course", "Branch", "year", "Issue date"};
@@ -161,7 +163,9 @@ public class issue {private JPanel p;
                     st.setString(10, s3);
                     st.setString(11, s4);
                     st.setString(12, s5);
-                    st.setString(13, ((JTextField) date.getDateEditor().getUiComponent()).getText());
+                    SimpleDateFormat smp=new SimpleDateFormat("dd-MM-yyyy");
+                    st.setString(13, smp.format(date.getDate()));
+                    //st.setString(13, ((JTextField) date.getDateEditor().getUiComponent()).getText());
 
 
                     st.execute();
@@ -241,7 +245,9 @@ public void table_upadate()
     private void createUIComponents() {
         // TODO: place custom component creation code here
         Calendar c = Calendar.getInstance();
-        date = new JDateChooser(c.getTime());
+       // new JDateChooser();
+        //date = new JDateChooser(c.getTime());
+        date.setDate(c.getTime());
         date.setDateFormatString("dd/MM/yyyy");
         Font f = new Font("Calibri", 0, 18);
         date.setFont(f);

@@ -17,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aHziGpUCcDt2ryzfUo6EwvfShG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,11 +34,11 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="277" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="279" />
-    <property name="last_opened_file_path" value="C:/untitled3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JCalendar.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunManager" selected="Application.home">
     <configuration name="about" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -145,89 +149,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1587628305069">
+    <state x="551" y="201" key="#com.intellij.uiDesigner.palette.ComponentItemDialog" timestamp="1608891063890">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587628305069" />
-    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586494666504">
+    <state x="551" y="201" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1536.824@0.0.1536.824" timestamp="1608891063890" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1608891164877">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586494666504" />
-    <state x="498" y="203" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1587626764998">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608891164877" />
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1609081179962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="203" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1587626764998" />
-    <state x="551" y="201" key="#com.intellij.uiDesigner.palette.ComponentItemDialog" timestamp="1586603065078">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609081179962" />
+    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1609081179962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="551" y="201" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1536.824@0.0.1536.824" timestamp="1586603065078" />
-    <state x="528" y="292" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586431189908">
+    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609081179962" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1609081179962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="528" y="292" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1586431189908" />
-    <state x="523" y="129" key="DetectedRootsChooserDialog" timestamp="1586509168160">
+    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609081179962" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1609081179962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="523" y="129" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586509168160" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1590851636128">
+    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609081179962" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1608890893540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590851636128" />
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1590944230859">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608890893540" />
+    <state x="209" y="34" key="new project wizard" timestamp="1606278050957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590944230859" />
-    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1590944230859">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590944230859" />
-    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1590944230859">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590944230859" />
-    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1590944230859">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590944230859" />
-    <state width="1537" height="270" key="GridCell.Tab.1.bottom" timestamp="1587469199892">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="270" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587469199892" />
-    <state width="1537" height="270" key="GridCell.Tab.1.center" timestamp="1587469199892">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="270" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587469199892" />
-    <state width="1537" height="270" key="GridCell.Tab.1.left" timestamp="1587469199892">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="270" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587469199892" />
-    <state width="1537" height="270" key="GridCell.Tab.1.right" timestamp="1587469199892">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="270" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587469199892" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1591013896342">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591013896342" />
-    <state x="647" y="208" key="UIDesigner.ListEditorDialog" timestamp="1587542929218">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="647" y="208" key="UIDesigner.ListEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1587542929218" />
-    <state x="555" y="294" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1587467267968">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="555" y="294" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1587467267968" />
-    <state x="209" y="34" key="new project wizard" timestamp="1588494619143">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588494619143" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1587613221224">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587613221224" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587541268818">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587541268818" />
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1606278050957" />
   </component>
 </project>
